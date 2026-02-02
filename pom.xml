@@ -47,9 +47,9 @@
         </developer>
     </developers>
     <scm>
-        <connection>scm:git:https//github.com/Netcracker/qubership-testing-platform-datasets.git</connection>
-        <developerConnection>scm:git:https://github.com/Netcracker/qubership-testing-platform-datasets.git</developerConnection>
-        <url>scm:git:https://github.com/Netcracker/qubership-testing-platform-datasets/tree/main</url>
+        <connection>scm:git:https//github.com/borislavr/qubership-testing-platform-datasets.git</connection>
+        <developerConnection>scm:git:https://github.com/borislavr/qubership-testing-platform-datasets.git</developerConnection>
+        <url>scm:git:https://github.com/borislavr/qubership-testing-platform-datasets/tree/main</url>
         <tag>HEAD</tag>
     </scm>
 
@@ -81,7 +81,7 @@
         <!-- GitHub packages repository for both release and SNAPSHOT versions -->
         <repository>
             <id>github</id>
-            <url>https://maven.pkg.github.com/netcracker/*</url>
+            <url>https://maven.pkg.github.com/borislavr/*</url>
             <releases>
                 <enabled>true</enabled>
             </releases>
@@ -174,7 +174,7 @@
                 <repository>
                     <id>github</id>
                     <name>GitHub Packages</name>
-                    <url>https://maven.pkg.github.com/Netcracker/qubership-testing-platform-datasets</url>
+                    <url>https://maven.pkg.github.com/borislavr/qubership-testing-platform-datasets</url>
                 </repository>
             </distributionManagement>
         </profile>
