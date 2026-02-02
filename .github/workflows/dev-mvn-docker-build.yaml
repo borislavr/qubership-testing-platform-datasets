@@ -31,7 +31,7 @@ permissions:
 
 env:
   TAG_NAME: ${{ github.event.release.tag_name || github.ref }}
-  additional-mvn-args: "-Dstage=release -Dstage=test -Denable-analyzers=true -Dpg.jdbc.Url=jdbc:postgresql://localhost:5432/datasets -Dpg.jdbc.User=datasets -Dpg.jdbc.Password=datasets -Dpg.jdbc.Dialect=com.querydsl.sql.PostgreSQLTemplates -Dgridfs.database=dsgridfs -Dspring.data.mongodb.uri=mongodb://localhost:27017/dsgridfs -Dgridfs.port=27017 -Dgridfs.user=dsuser -Dgridfs.password=dspass"
+  additional-mvn-args: "-Dstage=release -Denable-analyzers=true -Dpg.jdbc.Url=jdbc:postgresql://localhost:5432/datasets -Dpg.jdbc.User=datasets -Dpg.jdbc.Password=datasets -Dpg.jdbc.Dialect=com.querydsl.sql.PostgreSQLTemplates -Dgridfs.database=dsgridfs -Dspring.data.mongodb.uri=mongodb://localhost:27017/dsgridfs -Dgridfs.port=27017 -Dgridfs.user=dsuser -Dgridfs.password=dspass"
 
 jobs:
   mvn-snapshot-deploy:
